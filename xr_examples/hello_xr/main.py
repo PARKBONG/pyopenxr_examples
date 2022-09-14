@@ -11,12 +11,20 @@ import time
 
 import xr
 
-from xr_examples.hello_xr.graphics_plugin import IGraphicsPlugin
-from xr_examples.hello_xr.platform_plugin import IPlatformPlugin
-from xr_examples.hello_xr.openxr_program import OpenXRProgram
-from xr_examples.hello_xr.graphics_plugin_opengl import OpenGLGraphicsPlugin
-from xr_examples.hello_xr.platform_plugin_win32 import Win32PlatformPlugin
-from xr_examples.hello_xr.platform_plugin_xlib import XlibPlatformPlugin
+# from xr_examples.hello_xr.graphics_plugin import IGraphicsPlugin
+# from xr_examples.hello_xr.platform_plugin import IPlatformPlugin
+# from xr_examples.hello_xr.openxr_program import OpenXRProgram
+# from xr_examples.hello_xr.graphics_plugin_opengl import OpenGLGraphicsPlugin
+# from xr_examples.hello_xr.platform_plugin_win32 import Win32PlatformPlugin
+# from xr_examples.hello_xr.platform_plugin_xlib import XlibPlatformPlugin
+
+from hello_xr.graphics_plugin import IGraphicsPlugin
+from hello_xr.platform_plugin import IPlatformPlugin
+from hello_xr.openxr_program import OpenXRProgram
+from hello_xr.graphics_plugin_opengl import OpenGLGraphicsPlugin
+from hello_xr.platform_plugin_win32 import Win32PlatformPlugin
+from hello_xr.platform_plugin_xlib import XlibPlatformPlugin
+
 from .options import Options
 
 key_press_event = threading.Event()

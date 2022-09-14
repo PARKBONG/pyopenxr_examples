@@ -1,7 +1,8 @@
 from ctypes import Structure
 from typing import Optional
 
-from xr_examples.hello_xr.platform_plugin import IPlatformPlugin
+# from xr_examples.hello_xr.platform_plugin import IPlatformPlugin
+from hello_xr.platform_plugin import IPlatformPlugin
 
 
 class Win32PlatformPlugin(IPlatformPlugin):
